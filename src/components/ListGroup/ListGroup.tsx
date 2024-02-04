@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./ListGroup.css";
+// import styles from "./ListGroup.css";
 import styled from "styled-components";
 
 interface ListItemProps {
@@ -25,7 +25,7 @@ interface Props {
 
 function ListGroup({ items, heading, onSelectItem }: Props) {
   // Hook
-  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [selectedIndex] = useState(0);
   return (
     <>
       <h1>{heading}</h1>

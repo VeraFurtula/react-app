@@ -1,10 +1,10 @@
 interface Props {
   path: string;
-  imeKlase: string;
+  className: string;
 }
 
-const Image = ({ path, imeKlase }: Props) => {
-  return <img src={path} className={imeKlase} />;
+const Image = ({ path, className }: Props) => {
+  return <img src={path} className={className} />;
 };
 
 export default Image;

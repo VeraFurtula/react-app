@@ -8,7 +8,6 @@ interface ListItemProps {
 
 const List = styled.ul`
   list-style: none;
-
   padding: 0;
 `;
 
